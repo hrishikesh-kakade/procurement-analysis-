@@ -1,0 +1,15 @@
+{
+  "top_k": 3,
+  "cases": [
+    {"question": "When is an RFQ required for a purchase?", "expected_titles": ["Procurement Policy"], "expected_keywords": ["rfq"]},
+    {"question": "How many suppliers must be invited to quote?", "expected_titles": ["Procurement Policy"], "expected_keywords": ["three active suppliers"]},
+    {"question": "Who approves a requisition above 100,000?", "expected_titles": ["Requisition Approval Matrix"], "expected_keywords": ["above 100,000"]},
+    {"question": "Can a rejected requisition be approved later?", "expected_titles": ["Requisition Approval Matrix"], "expected_keywords": ["rejected requisition cannot be approved"]},
+    {"question": "How is the supplier scorecard rating calculated?", "expected_titles": ["Supplier Onboarding and Evaluation"], "expected_keywords": ["scorecard"]},
+    {"question": "What does a supplier need before it becomes active?", "expected_titles": ["Supplier Onboarding and Evaluation"], "expected_keywords": ["tax registration"]},
+    {"question": "Can goods received exceed the quantity ordered?", "expected_titles": ["Receiving Goods and Payment"], "expected_keywords": ["cannot exceed the quantity"]},
+    {"question": "What is the standard payment term for invoices?", "expected_titles": ["Receiving Goods and Payment"], "expected_keywords": ["30 days"]},
+    {"question": "Can an issued purchase order be cancelled after goods are received?", "expected_titles": ["Receiving Goods and Payment"], "expected_keywords": ["cancelled only before"]},
+    {"question": "Is splitting orders to avoid approval thresholds allowed?", "expected_titles": ["Procurement Policy"], "expected_keywords": ["splitting"]}
+  ]
+}
